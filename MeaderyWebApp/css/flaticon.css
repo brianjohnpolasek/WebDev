@@ -1,0 +1,46 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 20/02/2020 00:22
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./../fonts/flaticon/Flaticon.eot");
+  src: url("./../fonts/flaticon/Flaticon.eot") format("embedded-opentype"),
+       url("./../fonts/flaticon/Flaticon.woff2") format("woff2"),
+       url("./../fonts/flaticon/Flaticon.woff") format("woff"),
+       url("./../fonts/flaticon/Flaticon.ttf") format("truetype"),
+       url("./../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-mead-2:before { content: "\f100"; }
+.flaticon-mead-3:before { content: "\f101"; }
+.flaticon-bee-1:before { content: "\f102"; }
+.flaticon-bee-3:before { content: "\f103"; }
+.flaticon-honey-6:before { content: "\f104"; }
+.flaticon-maps-and-flags:before { content: "\f105"; }
+.flaticon-call-answer:before { content: "\f106"; }
+.flaticon-multiple-users-silhouette:before { content: "\f107"; }
+.flaticon-calendar:before { content: "\f108"; }
+.flaticon-heart:before { content: "\f109"; }
+.flaticon-linkedin-2:before { content: "\f10a"; }
+.flaticon-photograph:before { content: "\f10b"; }
+.flaticon-github-logo-silhouette-in-a-square:before { content: "\f10c"; }
+.flaticon-youtube-1:before { content: "\f10d"; }
